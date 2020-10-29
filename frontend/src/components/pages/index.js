@@ -1,0 +1,16 @@
+export { default as Home } from './home/Home';
+export { default as Signin } from './auth/Signin';
+export { default as Signup } from './auth/Signup';
+export { default as Browse } from './shope/Shope';
+export { default as Cart } from './checkout/Checkout';
+export { default as ProductDetail } from './product-detail/ProductDetail';
+export { default as Profile } from './profile/Profile';
+export { default as Shipping } from './shipping/Shipping';
+export { default as Payment } from './payment/Payment';
+export { default as PlaceOrder } from './place-order/PlaceOrder';
+export { default as OrderDetail } from './order-detail/OrderDetail';
+export { default as UserList } from './admin/user-list/UserList';
+export { default as UserEdit } from './admin/user-edit/UserEdit';
+export { default as ProductList } from './admin/product-list/ProductList';
+export { default as ProductEdit } from './admin/product-edit/ProductEdit';
+export { default as OrderList } from './admin/order-list/OrderList';

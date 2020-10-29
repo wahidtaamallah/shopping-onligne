@@ -1,0 +1,101 @@
+.placeOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 82vh;
+
+  hr {
+    margin-top: 10px;
+    opacity: 0.3;
+  }
+}
+
+.placeOrder__container {
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 0;
+  border: 1px solid lightgray;
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  button {
+    font-size: 10px;
+  }
+
+  div {
+    margin-left: auto;
+  }
+
+  p {
+    margin-top: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    span {
+      margin-left: 20px;
+      font-family: Lato-Bold;
+    }
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
+
+.total-price {
+  color: #8b0000 !important;
+}
+
+.placeOrderList {
+}
+
+.placeOrderItem {
+  display: flex;
+  padding: 20px 0;
+
+  svg {
+    font-size: 14px;
+  }
+
+  img {
+    object-fit: contain;
+    width: 70px;
+    margin-right: 10px;
+  }
+
+  h5 {
+    transition: color 0.2s ease-in;
+
+    &:hover {
+      color: $second-color;
+      cursor: pointer;
+    }
+  }
+
+  div {
+    margin-bottom: 5px;
+    div {
+      margin-left: 2px;
+      font-size: 12px;
+      strong {
+        color: #0066c0;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.placeOrderList .placeOrderItem:not(:last-child) {
+  border-bottom: 1px #ccc solid;
+}

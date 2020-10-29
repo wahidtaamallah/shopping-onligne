@@ -1,0 +1,99 @@
+.react-responsive-modal-modal {
+  padding: 0 !important;
+  width: 300px;
+}
+
+.react-responsive-modal-closeButton {
+  top: 0px !important;
+  right: 0px !important;
+  transform: scale(0.7);
+  fill: #fff;
+}
+
+.modal__header {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: $main-color;
+  color: #fff !important;
+  h2 {
+    font-size: 22px;
+    font-family: Lato-Bold;
+  }
+}
+
+.modal__footer {
+  display: flex;
+  padding: 10px;
+}
+
+.modal__body {
+  padding: 10px;
+  text-align: center;
+
+  h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Lato-Bold;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    margin-top: 1rem;
+    span {
+      font-family: Lato-Bold;
+      text-transform: uppercase;
+    }
+  }
+
+  h5 {
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-family: Lato-Bold;
+    font-size: 20px;
+
+    span {
+      color: rgb(230, 30, 77);
+    }
+  }
+
+  em {
+    margin: 0 5px;
+    font-family: Lato-Bold;
+    color: $second-color;
+  }
+}
+
+.modal__body {
+  .add__review-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  form {
+    input,
+    textarea {
+      height: 30px;
+      margin-bottom: 10px;
+      background-color: #fff;
+      width: 98%;
+      padding: 0 5px;
+    }
+    textarea {
+      height: 120px;
+      font-family: Roboto;
+      padding-top: 5px;
+      border-width: 2px;
+      border-style: inset;
+      border-color: -internal-light-dark(
+        rgb(118, 118, 118),
+        rgb(133, 133, 133)
+      );
+      border-image: initial;
+    }
+  }
+}

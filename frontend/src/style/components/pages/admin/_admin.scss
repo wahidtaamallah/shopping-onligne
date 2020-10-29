@@ -1,0 +1,96 @@
+.admin__userList {
+  margin: 2rem 10rem;
+  h1 {
+    margin-bottom: 1rem;
+    margin-left: 5px;
+  }
+}
+
+.admin__userList button:last-child {
+  margin-left: 15px;
+}
+
+.check {
+  color: #357a38 !important;
+}
+
+.uncheck {
+  color: #ab003c !important;
+}
+
+.center__container {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+
+    h5 {
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
+.userEdit_nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.admin__header {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    height: 40px;
+    padding: 0 10px;
+    background-color: $main-color;
+    color: #fff;
+    border: 1px $main-color solid;
+    border-radius: 5px;
+    transition: color 0.2s ease-in;
+    font-family: Roboto-Bold;
+    display: flex;
+    align-items: center;
+
+    svg {
+      font-size: 18px;
+      position: relative;
+      bottom: 1px;
+    }
+
+    &:hover {
+      background-color: $second-color;
+      color: $main-color;
+      border: 1px $second-color solid;
+      cursor: pointer;
+    }
+  }
+}
+
+.mark-as-delivered {
+  .MuiIconButton-root {
+    color: #8b0000;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .admin__userList {
+    margin: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 877px) {
+  .admin__userList {
+    margin: 2rem 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+.button {
+  background: linear-gradient(to bottom, #ffd65e 0%, #febf04 100%);
+  border-color: #a88734 #9c7e31 #846a29;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 5px 8px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: 1px solid;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.disable {
+  opacity: 0.3 !important;
+  cursor: not-allowed !important;
+}
